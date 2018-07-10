@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ChristopherBeards/Data-Structures-Algorithms-and-Notes#readme",
   "dependencies": {
-    "jest": "^23.1.0"
+    "jest": "^23.2.0"
   }
 }
