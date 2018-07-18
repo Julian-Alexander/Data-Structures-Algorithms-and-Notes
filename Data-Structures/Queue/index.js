@@ -19,4 +19,10 @@ class Queue {
     }
 }
 
+// * item -> [queue] -> removed
+// ! [queue]
+// * Enqueue(4) -> [4, 1, 2, 3]
+// * Dequeue() -> 3
+//  class Queue {}
+
 module.exports = Queue;
