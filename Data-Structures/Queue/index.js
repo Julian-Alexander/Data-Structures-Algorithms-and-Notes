@@ -5,6 +5,18 @@ should remove the element from the end.
 Testing: `jest Queue/test.js`
 */
 
-class Queue {}
+class Queue {
+    constructor() {
+        this.data = [];
+    }
+
+    enqueue(record) {
+        this.data.unshift(record);
+    }
+
+    dequeue() {
+        this.data.pop();
+    }
+}
 
 module.exports = Queue;
